@@ -19,20 +19,20 @@ public class Main {
     //user input
     int number = input.nextInt();
 
-    int fizz = (number%3);
-    int buzz = (number%5);
+    int Fizz = (number%3);
+    int Buzz = (number%5);
 
-    if (fizz == 0 && buzz == 0){
-    System.out.println("you should say fizzbuzz");
+    if (Fizz == 0 && Buzz == 0){
+    System.out.println("you should say FizzBuzz");
     }
     
-    else if (fizz == 0){
-      System.out.println("you should say fizz");
+    else if (Fizz == 0){
+      System.out.println("you should say Bizz");
     }
-    else if (buzz == 0){
-      System.out.println("you should say buzz");
+    else if (Buzz == 0){
+      System.out.println("you should say Buzz");
     }
-  else if (buzz != 0 && fizz != 0){
+  else if (Buzz != 0 && Fizz != 0){
     System.out.println("you should say "+ number);
   }
     
