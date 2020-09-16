@@ -27,7 +27,7 @@ public class Main {
     }
     
     else if (Fizz == 0){
-      System.out.println("you should say Bizz");
+      System.out.println("you should say Fizz");
     }
     else if (Buzz == 0){
       System.out.println("you should say Buzz");
